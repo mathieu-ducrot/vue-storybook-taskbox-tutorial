@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
+    "test:unit-update": "vue-cli-service test:unit -u",
     "lint": "vue-cli-service lint",
     "lint-fix": "vue-cli-service lint --fix",
     "storybook": "start-storybook -p 6006 -s public",
@@ -13,7 +14,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
