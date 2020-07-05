@@ -6,7 +6,8 @@ const alias = {
 
 module.exports = {
   stories: ['../stories/**/*.stories.js'],
-  addons: ['@storybook/addon-actions', '@storybook/addon-links'],
+  // The order you list these addons will dictate the order in which they appear as tabs on your addon panel
+  addons: ['@storybook/addon-actions', '@storybook/addon-knobs', '@storybook/addon-links'],
   // Custom Webpack Config
   webpackFinal: async (config, { configType }) => {
     // `configType` has a value of 'DEVELOPMENT' or 'PRODUCTION'
