@@ -1,3 +1,4 @@
+// https://www.learnstorybook.com/intro-to-storybook/vue/en/data/
 import Vue from 'vue'
 import Vuex from 'vuex'
 
